@@ -1,14 +1,13 @@
 {
-	"name": "sine",
+	"name": "eds_dumb_route",
 	"version": "1.0.0",
-	"description": "Sine Audio Test",
-	"author": "Blokas",
+	"description": "Just route quneo to everything else",
+	"author": "Space_Ed",
 	"launch_mode": "auto",
 	"depends_on": [
 		"jack.service",
 		{
-			"service": "pisound-btn.service",
-			"config": "sine-pisound-btn.conf"
+				"service": "amidiauto.service"
 		}
 	],
 	"services": [
