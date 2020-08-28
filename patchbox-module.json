@@ -7,8 +7,9 @@
 	"depends_on": [
 		"jack.service",
 		{
-				"service": "amidiauto.service"
-		}
+				"service": "amidiauto.service",
+				"config": "amidiauto.conf"
+		},
 	],
 	"services": [
 	],
